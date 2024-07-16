@@ -178,7 +178,8 @@ body {
 
 .widget-5 .image-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  gap: 8%;
 }
 
 .widget-5 .image-container div {
