@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import Header from './components/Header';
-import intro from './assests/intro.webp'
+import intro from './assests/intro.svg'
 import nameBlack from './assests/name-black.svg'
 import sarah from './assests/sarah.png'
 import chris from './assests/chris.png'
 import arrow from './assests/arrow.svg'
-import general from './assests/general.webp'
+import general from './assests/general.svg'
 import './App.css';
 import AutoPlay from './components/Slider';
 
