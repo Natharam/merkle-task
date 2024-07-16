@@ -292,7 +292,7 @@ body {
   }
 
   .image-container {
-    row-gap: 2rem;
+    row-gap: 2rem !important;
   }
 
   .widget-1 .left h3 {
