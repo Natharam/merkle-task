@@ -15,7 +15,7 @@ const socials = ['TWITTER', 'LINKEDIN', 'PRIVACY POLICY', '2024 ©MERKLE 3S CAPI
 
 function App() {
   const [height, setHeight] = useState(132)
-  const [scrollY, setScrollY] = useState(132)
+  const [scrollY, setScrollY] = useState(false)
 
   useEffect(() => {
     window.addEventListener("scroll", updateDimensions)
