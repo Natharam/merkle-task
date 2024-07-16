@@ -64,6 +64,13 @@
 }
 
 .slick-slide {
-  margin-right: 2rem;
+  margin-right: 3rem;
   height: 80px !important;
+}
+
+@media screen and (max-width: 800px) {
+  .slick-slide {
+    margin-right: 1rem;
+    height: 60px !important;
+  }
 }
