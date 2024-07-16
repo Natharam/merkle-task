@@ -6,16 +6,18 @@ import Slider from "react-slick";
 import { data } from './data';
 
 export default function App() {
-  var settings = {
+  const mobile = window.innerWidth < 800
+  const settings = {
     dots: false,
     infinite: true,
     speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 3,
+    slidesToShow: mobile ? 3 : 8,
+    slidesToScroll: mobile ? 3 : 8,
     arrows: true,
     autoplay: true,
     className: "myCustomCarousel"
   };
+
   return (
     <Slider {...settings}>
       {data.map(item => (
