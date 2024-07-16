@@ -182,7 +182,7 @@ body {
 
 .widget-5 .image-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   gap: 8%;
 }
 
@@ -192,6 +192,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 0;
+  width: 40%;
 }
 
 .widget-5 h5 {
@@ -208,7 +209,7 @@ body {
 
 .widget-5 img {
   width: 100%;
-  margin: auto;
+  margin: auto auto 1rem;
 }
 
 .bottom-widget {
