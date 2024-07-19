@@ -197,6 +197,7 @@ body {
   width: 100%;
   max-width: 100%;
   justify-content: space-around;
+  text-align: center;
 }
 
 .widget-5 .right img {
@@ -205,7 +206,7 @@ body {
 
 .widget-5 .content {
   padding: 0 2rem;
-  max-width: 400px;
+  max-width: 450px;
   height: 100%;
   row-gap: 1rem;
 }
@@ -220,6 +221,8 @@ body {
   background-color: transparent !important;
   margin: 0 !important;
   padding: 0.5rem 0 !important;
+  text-align: center;
+  width: 100% !important;
 }
 
 .widget-5 img {
@@ -354,7 +357,6 @@ body {
     flex-direction: column;
     row-gap: 1rem;
     justify-content: center;
-    text-align: center;
   }
 
   .widget-5 .right img {
@@ -363,11 +365,6 @@ body {
 
   .widget-5 .right .content {
     order: 2;
-  }
-
-  .widget-5 h6 {
-    text-align: center;
-    width: 100% !important;
   }
 
   .bottom-widget .list {
